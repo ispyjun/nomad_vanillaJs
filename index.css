@@ -64,3 +64,21 @@ h1{
     top:36%;
     left:31.5%;
 }
+
+input {
+    background: none;
+    appearance: none;
+    border: 0;
+    font-size: 22px;
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+  input:focus,
+  input:active {
+    outline: none;
+  }
